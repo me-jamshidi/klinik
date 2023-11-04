@@ -1,8 +1,18 @@
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+         url('../fonts/Vazirmatn[wght].woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
 /********** Template CSS **********/
 :root {
     --primary: #0463FA;
     --light: #EFF5FF;
     --dark: #1B2C51;
+    --bs-font-sans-serif: 'Vazirmatn';
 }
 
 .fw-medium {
