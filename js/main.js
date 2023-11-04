@@ -48,25 +48,26 @@
 
 
     // Date and time picker
-    $('.date').datetimepicker({
-        format: 'L'
-    });
-    $('.time').datetimepicker({
-        format: 'LT'
-    });
+    // $('.date').datetimepicker({
+    //     format: 'L'
+    // });
+    // $('.time').datetimepicker({
+    //     format: 'LT'
+    // });
 
 
     // Header carousel
     $(".header-carousel").owlCarousel({
         autoplay: false,
-        animateOut: 'fadeOutLeft',
+        animateOut: 'fadeOutRightLeft',
         items: 1,
         dots: true,
         loop: true,
         nav : true,
+        rtl : true,
         navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
+            '<i class="bi bi-chevron-right"></i>',
+            '<i class="bi bi-chevron-left"></i>'
         ]
     });
 
@@ -79,9 +80,10 @@
         dots: false,
         loop: true,
         nav : true,
+        rtl : true,
         navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
+            '<i class="bi bi-arrow-right"></i>',
+            '<i class="bi bi-arrow-left"></i>'
         ],
         responsive: {
             0:{
